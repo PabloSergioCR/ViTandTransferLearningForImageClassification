@@ -17,7 +17,7 @@ Este proyecto implementa un clasificador de imágenes utilizando un modelo preen
 El repositorio contiene los siguientes archivos y carpetas principales:
 
 - ImageSorterCreator.py: Código principal para el entrenamiento del modelo.
-- inference.py: Código para realizar predicciones con el modelo entrenado. (aún no disponible)
+- inference.py: Código para realizar predicciones con el modelo entrenado.
 - LICENSE: Archivo de licencia para el proyecto.
 - README.md: Este archivo explicativo.
 - Carpeta dataset/: Ejemplo de cómo estructurar los datos de entrenamiento y prueba.(no disponible)
