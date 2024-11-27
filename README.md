@@ -48,7 +48,9 @@ Sigue los pasos de ImageSorterCreator.py para crear y entrenar el modelo
 
 **Ejemplo de uso**
 
-*bash*
+
+
+Para ejecutar el modelo y hacer una predicción deberemos hacer uso de inference.py teniendo en cuenta la ruta (path) donde hemos almacenado nuestro modelo entrenado y la imagen que queremos clasificar. Nos pedirá que introduzcamos el modelo a usar por la línea de comandos y también la ruta de la imagen.
 
 *python inference.py --image_path ./sample_image.jpg --model_dir ./outputs/checkpoint-500*
 
