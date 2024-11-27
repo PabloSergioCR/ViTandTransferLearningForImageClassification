@@ -1,4 +1,4 @@
-**Clasificador de Imágenes con Vision Transformer (ViT)**
+#Clasificador de Imágenes con Vision Transformer (ViT)#
 
 Este proyecto implementa un clasificador de imágenes utilizando un modelo preentrenado de Vision Transformer (ViT) disponible en Hugging Face. El modelo ha sido ajustado (fine-tuning) para clasificar imágenes de un conjunto de datos personalizado.
 
