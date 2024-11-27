@@ -5,6 +5,7 @@ import argparse
 from torchvision import transforms
 import os
 
+#Aquí podría especificar la ruta del modelo guardado con: model_dir= './cifar10-vit-model' 
 # Función para preprocesar la imagen (igual que se hizo durante el entrenamiento)
 def preprocess_image(image_path, feature_extractor):
     # Cargar la imagen
@@ -42,7 +43,7 @@ def main():
     # Parsear los argumentos de la línea de comandos
     parser = argparse.ArgumentParser(description="Predicción de imágenes con modelo entrenado.")
     parser.add_argument('--image_path', type=str, required=True, help="Ruta de la imagen para la predicción.")
-    parser.add_argument('--model_dir', type=str, required=True, help="Ruta al directorio del modelo entrenado.")
+    parser.add_argument('--model_dir', type=str, required=True, help="Ruta al directorio del modelo entrenado.") #Si he introducido la ruta directamente en código es preciso borrar esta línea
     
     args = parser.parse_args()
     
